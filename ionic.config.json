@@ -1,0 +1,7 @@
+{
+  "name": "listaElementosApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
