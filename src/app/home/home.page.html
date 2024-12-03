@@ -2,12 +2,10 @@
   <ion-toolbar>
     <ion-title>Lista de Elementos</ion-title>
     <ion-button (click)="agregarElemento()" slot="end">
-      <ion-icon name="add"></ion-icon>
       Agregar
     </ion-button>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
   <ion-list>
     <ion-item *ngFor="let elemento of elementos">
