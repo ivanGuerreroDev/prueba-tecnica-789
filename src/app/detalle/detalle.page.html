@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detalle del Elemento</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="elemento">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{ elemento.title }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ elemento.body }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

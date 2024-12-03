@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Agregar Elemento</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating">Título</ion-label>
+    <ion-input [(ngModel)]="nuevoElemento.title" required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Descripción</ion-label>
+    <ion-textarea [(ngModel)]="nuevoElemento.body" required></ion-textarea>
+  </ion-item>
+
+  <ion-button expand="full" (click)="agregarElemento()">Agregar</ion-button>
+</ion-content>
